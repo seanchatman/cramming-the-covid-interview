@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2539e5b8-d3b3-40cc-893e-2f24b32ce6f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/data-structures/vectors/vectors.README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/habits/habits.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithms/algorithm.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/algorithms.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/array-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/array-lists/array-lists.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/data-structure.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/data-structures.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/hash-table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/hash-tables/hash-tables.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/heap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/heaps/heaps.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/linked-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/linked-lists/linked-lists.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/queues/queues.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/stack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/stacks/stacks.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/trees/trees.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data-structures/trie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/tries/tries.README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kZ90KZmUMdC2lrq42Zmn9OQXG3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +60,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,17 +73,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605897021445</updated>
-      <workItem from="1605897022527" duration="165000" />
+      <workItem from="1605897022527" duration="2831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="190" key="SettingsEditor" timestamp="1605897187387">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="-1459" y="235" key="SettingsEditor" timestamp="1605898161133">
+      <screen x="-1920" y="77" width="1920" height="1001" />
     </state>
+    <state x="-1459" y="235" key="SettingsEditor/0.23.1920.1057/-1920.77.1920.1001@-1920.77.1920.1001" timestamp="1605898161133" />
     <state x="461" y="190" key="SettingsEditor/0.23.1920.1057/-1920.77.1920.1001@0.23.1920.1057" timestamp="1605897187387" />
+    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup" timestamp="1605898083964">
+      <screen x="-1920" y="77" width="1920" height="1001" />
+    </state>
+    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@-1920.77.1920.1001" timestamp="1605898083964" />
+    <state x="625" y="202" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@0.23.1920.1057" timestamp="1605897643248" />
   </component>
 </project>
