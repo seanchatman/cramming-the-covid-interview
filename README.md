@@ -42,3 +42,7 @@ Markdown links
 * [Markdown to create pages and table of contents?](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) by [Freedom_Ben](https://stackoverflow.com/users/2062384/freedom-ben)
 
 * [Markdown Guide](https://www.markdownguide.org/) by [Matt Cone](https://www.mattcone.com/)
+
+Challenge ideas
+thumbs up vs stars
+deli

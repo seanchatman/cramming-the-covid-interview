@@ -23,20 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2539e5b8-d3b3-40cc-893e-2f24b32ce6f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/data-structures/vectors/vectors.README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/habits/habits.README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/algorithm.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/algorithms.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/array-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/array-lists/array-lists.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/data-structure.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/data-structures.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/hash-table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/hash-tables/hash-tables.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/heap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/heaps/heaps.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/linked-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/linked-lists/linked-lists.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/queues/queues.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/stack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/stacks/stacks.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/trees/trees.README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data-structures/trie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data-structures/tries/tries.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithms/algorithms.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/algorithms.README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/concepts/big-o-notation/big-o-notation.README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concepts/big-o-notation/big-o-notation.README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/motivation/speakers" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
@@ -73,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605897021445</updated>
-      <workItem from="1605897022527" duration="2831000" />
+      <workItem from="1605897022527" duration="4928000" />
+      <workItem from="1605903117621" duration="887000" />
     </task>
     <servers />
   </component>
@@ -90,17 +82,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1459" y="235" key="SettingsEditor" timestamp="1605898161133">
-      <screen x="-1920" y="77" width="1920" height="1001" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1605901784075">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1080/-1920.54.1920.1080@0.0.1920.1080" timestamp="1605901784075" />
     <state x="-1459" y="235" key="SettingsEditor/0.23.1920.1057/-1920.77.1920.1001@-1920.77.1920.1001" timestamp="1605898161133" />
     <state x="461" y="190" key="SettingsEditor/0.23.1920.1057/-1920.77.1920.1001@0.23.1920.1057" timestamp="1605897187387" />
-    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup" timestamp="1605898083964">
+    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup" timestamp="1605911531257">
       <screen x="-1920" y="77" width="1920" height="1001" />
     </state>
-    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@-1920.77.1920.1001" timestamp="1605898083964" />
-    <state x="625" y="202" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@0.23.1920.1057" timestamp="1605897643248" />
+    <state x="-1295" y="247" width="670" height="641" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@-1920.77.1920.1001" timestamp="1605911531257" />
+    <state x="625" y="202" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/-1920.77.1920.1001@0.23.1920.1057" timestamp="1605903135391" />
   </component>
 </project>
