@@ -313,3 +313,8 @@ From [Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Big_O_nota
       <td><code style="color: yellow">O(n)</code></td>
    </tr>
 </table>
+
+Links
+===
+[The Ultimate Big O Notation Tutorial (Time & Space Complexity For Algorithms)
+](https://www.youtube.com/watch?v=waPQP2TDOGE)

@@ -1,0 +1,27 @@
+{
+  "name": "cramming-the-covid-interview",
+  "version": "1.0.0",
+  "description": "A Javascript developers journey to crack the online interview.",
+  "main": "workbench.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/workbench.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanchatman/cramming-the-covid-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanchatman/cramming-the-covid-interview/issues"
+  },
+  "homepage": "https://github.com/seanchatman/cramming-the-covid-interview#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0"
+  }
+}

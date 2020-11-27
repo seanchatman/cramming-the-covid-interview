@@ -15,3 +15,8 @@ From [Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Linked_lis
 >(and difficult to pipeline). Faster access, such as random access, is not feasible. [Arrays](https://en.wikipedia.org/wiki/Array_data_structure) have better 
 >cache locality compared to linked lists.
 
+URLS
+===
+
+####Leetcode.com
+* [Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/)

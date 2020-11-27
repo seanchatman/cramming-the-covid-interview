@@ -15,3 +15,17 @@ From [Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Dynamic_ar
 >[dynamically allocated](https://en.wikipedia.org/wiki/Dynamic_memory_allocation) array, 
 >which is an [array](https://en.wikipedia.org/wiki/Array_data_structure) whose size is fixed when the array is allocated, although a 
 >dynamic array may use such a fixed-size array as a back end.[1]
+
+Arrays
+===
+
+Links
+===
+
+####Leetcode.com
+* [Introduction to Data Structure
+ Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/)
+
+* Top Interview Questions (Easy)
+    * [Remove Duplicates from Sorted Array](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/727/)
+    * [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/564/)
