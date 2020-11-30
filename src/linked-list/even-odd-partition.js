@@ -4,6 +4,10 @@ class ListNode {
     this.next = next;
   }
 
+  toArray() {
+    return ListNode.toArray(this);
+  }
+
   static toArray(node) {
     let curr = node;
     const output = [];
@@ -21,40 +25,26 @@ class ListNode {
       console.log("value: ", value.value)
     );
   }
-  
+
   static fromValues(values) {
     let head = new ListNode(values[0]);
     let node = head;
-    
+
     for (let i = 1; i < values.length; i++) {
       node.next = new ListNode(values[i]);
       node = node.next;
     }
-    
+
     return head;
   }
 }
 
 /**
- * @param {any} values
- * @return {any}
+ * @param {ListNode} head
+ * @return {ListNode}
  */
-const oddEvenList = (values) => {
-  if(!values || (values.hasOwnProperty('next') && !values.next))
-  let head
-  
-  if (typeof values === 'object') {
-    head = values
-  } else {
-    head = ListNode.fromValues(values)
-  }
-  
-  let evenPointer = head
-  let oddPointer = head.next
-  
-  let oddHead = oddPointer
-  
-  while ()
+const oddEvenList = (head) => {
+  console.log(`head`, head.toArray());
 };
 
 module.exports = oddEvenList;

@@ -1,4 +1,4 @@
-#[Array](https://developer.mozilla.org/en-US/docs/Glossary/array)
+#[Array](https://developer.mozilla.org/en-US/docs/Glossary/array) [(MDN)](https://developer.mozilla.org/en-US/)
 An ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.
 
 - [every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)

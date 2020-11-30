@@ -18,6 +18,7 @@ const testWrapper = ({ label, callback, args, assertion }) => {
     if (JSON.stringify(result) === JSON.stringify(assertion)) {
       console.log(`Test passed.`);
     }
+    console.timeEnd(label);
   } else {
     console.timeEnd(label);
     console.log(`Test passed.`);

@@ -1,4 +1,4 @@
-#[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+#[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) [(MDN)](https://developer.mozilla.org/en-US/)
 
 - [endsWith](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
   does it end with the characters.

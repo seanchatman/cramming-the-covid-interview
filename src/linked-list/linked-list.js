@@ -9,110 +9,107 @@ class ListNode {
     this.next = next;
   }
 
-  toString() {
-    return `${JSON.stringify(this.value)}`;
-  }
-
-  /***
-   * @return {ListNode}
-   ***/
-  static fromValues(values) {
-    let head = new ListNode(values[0]);
-    let node = head;
-
-    for (let i = 1; i < values.length; i++) {
-      node.next = new ListNode(values[i]);
-      node = node.next;
-    }
-
-    return head;
-  }
-
   /***
    * @param {ListNode} startNode
    * @param {function} callback
    ***/
-  static forEach(startNode, callback) {
-    let cursor = startNode;
-    let index = 0;
-
-    while (cursor) {
-      callback(cursor, index);
-      cursor = cursor.next;
-      index++;
-    }
+  forEach(callback) {
+    LinkedListUtils.forEach(this, callback);
   }
 
-  /***
-   * @return {Array<ListNode>}
-   ***/
-  static toArray(startNode) {
-    const output = [];
-
-    ListUtils.forEach(startNode, (node) => {
-      output.push(node);
-    });
-
-    return output;
+  toString() {
+    return `{
+  value: ${this.value},
+  next: ${this.next ? this.next.toString() : "null"}
+}  `;
   }
 }
 
 /***
+ * Static function to make working with linked lists easier.
+ * Aims to simulate functionality of the Array class.
+ *
  * @constructor
  * @param {Array} values
  ***/
-class ListUtils {
-  constructor() {}
+class LinkedListUtils {
+  constructor() {
+    throw new Error("LinkedList cannot be instantiated.");
+  }
 
   /***
+   * Create linked list of ListNodes from an Array of values.
+   *
+   * @param {Array} values
    * @return {ListNode}
    ***/
   static fromValues(values) {
-    let head = new ListNode(values[0]);
-    let node = head;
+    let head = new ListNode(values.shift());
+    let tail = head;
 
-    for (let i = 1; i < values.length; i++) {
-      node.next = new ListNode(values[i]);
-      node = node.next;
+    values.forEach((value) => {
+      tail.next = new ListNode(value);
+      tail = tail.next;
+    });
+
+    return head;
+  }
+
+  /***
+   * Create a linked list of ListNodes from a linked list of Objects.
+   *
+   * @return {ListNode}
+   ***/
+  static fromObjects(headObject) {
+    let head = new ListNode(headObject.value);
+    let tail = head;
+
+    let tailObject = headObject;
+
+    while (tailObject) {
+      tail.next = new ListNode(tailObject.value);
+      tail = tail.next;
+
+      tailObject = tailObject.next;
     }
 
     return head;
   }
 
   /***
-   * @param {ListNode} startNode
+   * Loops through each element of a linked list.
+   * Return false to break the loop.
+   *
+   * @param {ListNode} head
    * @param {function} callback
+   *
    ***/
-  static forEach(startNode, callback) {
-    let cursor = startNode;
+  static forEach(head, callback) {
+    let tail = head;
     let index = 0;
 
-    while (cursor) {
-      callback(cursor, index);
-      cursor = cursor.next;
-      index++;
+    while (tail) {
+      if (!callback(tail, index, head)) {
+        tail = null;
+      } else {
+        tail = tail.next;
+        index++;
+      }
     }
   }
 
-  static toString(startNode) {
-    let output = "";
-
-    ListUtils.forEach(startNode, (node) => {
-      output += "\n" + node.toString();
-    });
-
-    return output;
-
-    // return JSON.stringify(this.#source);
-  }
+  // static toString(head) {
+  //   return JSON.stringify(head);
+  // }
 
   /***
+   * @param {ListNode} head
    * @return {Array<ListNode>}
    ***/
-  static toArray(startNode) {
+  static toArray(head) {
     const output = [];
 
-    ListUtils.forEach(startNode, (node) => {
+    LinkedListUtils.forEach(head, (node) => {
       output.push(node);
     });
 
@@ -121,4 +118,4 @@ class ListUtils {
 }
 
 module.exports.ListNode = ListNode;
-module.exports.ListUtils = ListUtils;
+module.exports.LinkedListUtils = LinkedListUtils;

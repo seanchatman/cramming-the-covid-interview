@@ -1,4 +1,4 @@
-# [Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+# [Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) [(MDN)](https://developer.mozilla.org/en-US/)
 
 ###
 
