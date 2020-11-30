@@ -28,9 +28,15 @@
   str.indexOf(searchValue [, fromIndex])
   ```
 
-- [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf)
+- [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll)
   returns a new string with all matches of a pattern replaced by a replacement.
 
   ```javascript
   const newStr = str.replaceAll(regexp|substr, newSubstr|function)
+  ```
+
+- [substring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+  returns the part of the string between the start and end indexes, or to the end of the string.
+  ```javascript
+  str.substring(indexStart[, indexEnd])
   ```

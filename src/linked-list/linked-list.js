@@ -64,7 +64,7 @@ class LinkedListUtils {
     let head = new ListNode(headObject.value);
     let tail = head;
 
-    let tailObject = headObject;
+    let tailObject = headObject.next;
 
     while (tailObject) {
       tail.next = new ListNode(tailObject.value);
@@ -78,24 +78,13 @@ class LinkedListUtils {
 
   /***
    * Loops through each element of a linked list.
-   * Return false to break the loop.
    *
    * @param {ListNode} head
    * @param {function} callback
    *
    ***/
   static forEach(head, callback) {
-    let tail = head;
-    let index = 0;
-
-    while (tail) {
-      if (!callback(tail, index, head)) {
-        tail = null;
-      } else {
-        tail = tail.next;
-        index++;
-      }
-    }
+    LinkedListUtils.toArray(head).forEach(callback);
   }
 
   // static toString(head) {
@@ -109,9 +98,12 @@ class LinkedListUtils {
   static toArray(head) {
     const output = [];
 
-    LinkedListUtils.forEach(head, (node) => {
-      output.push(node);
-    });
+    let tail = head;
+
+    while (tail) {
+      output.push(tail);
+      tail = tail.next;
+    }
 
     return output;
   }
