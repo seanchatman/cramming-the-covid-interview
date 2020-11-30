@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/workbench.js"
+    "start": "nodemon src/workbench.js name=joe name=sean"
   },
   "repository": {
     "type": "git",

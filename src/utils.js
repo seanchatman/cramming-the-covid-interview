@@ -34,11 +34,11 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 exports.testWrapper = testWrapper;
 
 exports.init = () => {
-  String.prototype.forEach = function (callback) {
-    for (let i = 0; i < this.length; i++) {
-      callback(this[i], i, this);
-    }
-  };
-
-  String.prototype.pointer = 0;
+  // String.prototype.forEach = function (callback) {
+  //   for (let i = 0; i < this.length; i++) {
+  //     callback(this[i], i, this);
+  //   }
+  // };
+  //
+  // String.prototype.pointer = 0;
 };

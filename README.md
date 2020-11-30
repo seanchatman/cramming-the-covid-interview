@@ -4,9 +4,9 @@ A Javascript developers journey to crack the online interview. Shoutout to [Jack
 
 - [Global Objects](docs/javascript/global/global.README.md)
   - [Array](docs/javascript/global/array.README.md)
-  - [Function](docs/javascript/global/array.README.md)
-  - [Object](docs/javascript/global/array.README.md)
-  - [String](docs/javascript/global/array.README.md)
+  - [Function](docs/javascript/global/function.README.md)
+  - [Object](docs/javascript/global/object.README.md)
+  - [String](docs/javascript/global/string.README.md)
 - [Document object model](docs/javascript/dom/document-object-model.README.md)
 
 I use [CTCI](https://www.amazon.com/dp/0984782850?tag=care02-20&linkCode=osi&th=1&psc=1) to reference ["Cracking the Coding Interview"](https://www.amazon.com/dp/0984782850?tag=care02-20&linkCode=osi&th=1&psc=1) by [Gayle Laakmann](https://www.gayle.com/)
