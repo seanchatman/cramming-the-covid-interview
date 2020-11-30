@@ -97,7 +97,7 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 
 # Protips
 
-###Before:
+### Before:
 
 - Reboot your computer
 - Use the bathroom before you start
@@ -112,10 +112,10 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 - Listen to your favorite music
 - Review your demo code
 
-###During:
+### During:
 
 - Read the question
 
-###After:
+### After:
 
 - Take a break, you deserve it
