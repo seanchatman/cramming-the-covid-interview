@@ -111,11 +111,21 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 - Listen to a motivational speaker
 - Listen to your favorite music
 - Review your demo code
+- Check posture, relax, practice typing
 
 ### During:
 
 - Read the question
+- Write test
+- Guard your function against bad input
+- Output the first right answer
+- Take a break in the middle for a banana/snack
+- Use the components of what you have learned
+- Recognize familiar patterns
+- What hints are the directions/samples giving you?
 
 ### After:
 
 - Take a break, you deserve it
+- How could you have done better?
+- Go back and optimize what you have created.

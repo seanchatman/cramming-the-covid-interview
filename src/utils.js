@@ -8,12 +8,13 @@
  */
 const testWrapper = ({ label, callback, args, assertion, skip }) => {
   if (skip) return;
+  console.log(`testWrapper`);
 
   console.time(label);
 
   let result = callback.call(this, ...args);
 
-  if (assertion) {
+  if (assertion !== null || assertion !== undefined) {
     console.assert(JSON.stringify(result) === JSON.stringify(assertion));
 
     if (JSON.stringify(result) === JSON.stringify(assertion)) {
@@ -22,11 +23,12 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
       console.log(label, "result", JSON.stringify(result));
       console.log(label, `assertion`, JSON.stringify(assertion));
     }
-    console.timeEnd(label);
   } else {
-    console.timeEnd(label);
-    console.log(`Test passed.`);
+    console.log("No test.");
+    console.log(label, "result", JSON.stringify(result));
   }
+
+  console.timeEnd(label);
 
   return result;
 };

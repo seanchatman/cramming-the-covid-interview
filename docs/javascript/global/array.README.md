@@ -1,5 +1,8 @@
-#[Array](https://developer.mozilla.org/en-US/docs/Glossary/array) [(MDN)](https://developer.mozilla.org/en-US/)
-An ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.
+#[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+>
+
+> An ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. [(MDN)](https://developer.mozilla.org/en-US/)
 
 - [every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
   tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
@@ -94,6 +97,13 @@ An ordered collection of data (either primitive or object depending upon the lan
 
   ```javascript
   arr.slice([start[, end]])
+  ```
+
+- [some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+  tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+
+  ```javascript
+    arr.some(callback(element[, index[, array]])[, thisArg])
   ```
 
 - [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
