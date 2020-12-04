@@ -12,7 +12,13 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 
   console.time(label);
 
-  let result = callback.call(this, ...args);
+  let result;
+
+  if (args) {
+    result = callback.call(this, ...args);
+  } else {
+    result = callback.call(this);
+  }
 
   if (assertion !== null || assertion !== undefined) {
     console.assert(JSON.stringify(result) === JSON.stringify(assertion));
