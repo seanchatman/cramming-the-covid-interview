@@ -52,6 +52,13 @@ I use [CTCI](https://www.amazon.com/dp/0984782850?tag=care02-20&linkCode=osi&th=
 
 - [Markdown Guide](https://www.markdownguide.org/) by [Matt Cone](https://www.mattcone.com/)
 
-Challenge ideas
-thumbs up vs stars
-deli
+# Study List:
+
+- JavaScript
+  - [ Front-end Interview Questions by Arthur Zheng](https://arthur-zheng.gitbooks.io/front-end-interview-questions/content/)
+- DOM API
+- HTML5
+- CSS3
+- React
+- React Router
+- Redux

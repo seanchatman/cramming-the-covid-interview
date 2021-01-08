@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue by Hand</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Todo</h1>
+      <ol>
+        <li v-for="todo in todos">{{todo.text}}</li>
+      </ol>
+        <form>
+
+        </form>
+    </div>
+    <script type="text/javascript">
+      const app = new Vue({
+        el: '#app',
+        data: {
+          seen: false,
+          message: 'You loaded this page on ' + new Date().toLocaleDateString(),
+          todos: [
+            {text: 'You loaded'},
+            {text: 'You loaded ' + Date.now()},
+            {text: 'You loaded ' + Date.now()},
+            {text: 'You loaded ' + Date.now()},
+            {text: 'You loaded ' + Date.now()},
+          ]
+        }
+      })
+    </script>
+  </body>
+</html>

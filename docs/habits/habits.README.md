@@ -129,3 +129,11 @@ const testWrapper = ({ label, callback, args, assertion, skip }) => {
 - Take a break, you deserve it
 - How could you have done better?
 - Go back and optimize what you have created.
+
+### Daily Workout:
+
+- Binary search
+- Merge sort
+- Bubble heap / Heap sort
+- Quick sort (placement pointers
+- BuildHeap

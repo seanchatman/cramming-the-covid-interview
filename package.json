@@ -23,5 +23,11 @@
   "devDependencies": {
     "nodemon": "^2.0.6",
     "prettier": "^2.2.0"
+  },
+  "dependencies": {
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "uuid": "^8.3.2"
   }
 }
